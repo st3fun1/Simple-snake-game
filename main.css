@@ -1,0 +1,41 @@
+* {
+    box-sizing:border-box;
+}
+
+.square {
+    width:10px;
+    height:10px;
+    border:1px solid black;
+    float:left;
+}
+/*.last-tile-row{
+    clear:right;
+}*/
+
+#game {
+    width:400px;
+    height:400px;
+    box-sizing: content-box;
+}
+.snake-head {
+    background-color:red;
+    color:white;
+    text-align: center;
+}
+
+.snake-body {
+    background-color:blue;
+}
+
+#stats {
+	height:20px;
+	margin-top:20px;
+	font-size:20px;
+	text-align: center;
+	color:white;
+	background-color:red;
+}
+
+.food {
+	background-color:green;
+}
